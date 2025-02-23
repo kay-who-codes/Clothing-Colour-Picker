@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Colour Picker</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+<!-- Header Bar -->
+<div id="header"></div>
+
+<!-- Main Content -->
+    <div class="app-container">
+        <h1>Clothing Colour Picker</h1>
+
+        <div class="controls">
+            <label>Jacket: 
+                <select id="jacket">
+                    <option value="#f2f2ee">White</option>
+                    <option value="#a3a3a3">Light Grey</option>
+                    <option value="#272727" selected>Dark Grey</option>
+                    <option value="#3e583a">Olive</option>
+                    <option value="#2d3555">Navyish</option>
+                    <option value="#fee7af">Sand</option>
+                </select>
+            </label>
+            <label>Top: 
+                <select id="top">
+                    <option value="#f2f2ee" selected>White</option>
+                    <option value="#a3a3a3">Light Grey</option>
+                    <option value="#272727">Dark Grey</option>
+                    <option value="#3e583a">Olive</option>
+                    <option value="#2d3555">Navyish</option>
+                    <option value="#fee7af">Sand</option>
+                </select>
+            </label>
+            <label>Bottoms: 
+                <select id="bottoms">
+                    <option value="#f2f2ee">White</option>
+                    <option value="#a3a3a3">Light Grey</option>
+                    <option value="#272727">Dark Grey</option>
+                    <option value="#3e583a">Olive</option>
+                    <option value="#2d3555" selected>Navyish</option>
+                    <option value="#fee7af">Sand</option>
+                </select>
+            </label>
+            <label>Shoes: 
+                <select id="shoes">
+                    <option value="#f2f2ee" selected>White</option>
+                    <option value="#a3a3a3">Light Grey</option>
+                    <option value="#272727">Dark Grey</option>
+                    <option value="#3e583a">Olive</option>
+                    <option value="#2d3555">Navyish</option>
+                    <option value="#fee7af">Sand</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="clothing-display">
+            <div id="jacket-display" class="clothing jacket"></div>
+            <div id="top-display" class="clothing top"></div>
+            <div id="bottoms-display" class="clothing bottoms"></div>
+            <div id="shoes-display" class="clothing shoes"></div>
+        </div>
+    <script src="js/script.js"></script>
+    <script src="js/header.js"></script>  
+
+</body>
+</html>

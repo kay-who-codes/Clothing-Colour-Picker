@@ -1,0 +1,92 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.app-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+select {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.clothing-display {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Jacket should be behind the top */
+.jacket {
+    width: 200px;
+    height: 200px;
+    background-color: #272727;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+/* Top should be on top of the jacket */
+.top {
+    width: 80px;
+    height: 200px;
+    background-color: #e4e4e4;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.bottoms {
+    width: 100px;
+    height: 200px;
+    background-color: #19203f;
+    position: relative;
+    margin-top: 200px;
+}
+
+.shoes {
+    width: 100px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Smooth fade transition */
+.clothing {
+    transition: background-color 0.2s ease-in-out;
+}
