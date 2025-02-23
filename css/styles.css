@@ -50,6 +50,7 @@ select {
     position: absolute;
     top: 0;
     z-index: 1;
+    border-radius: 2px;
 }
 
 /* Top should be on top of the jacket */
@@ -68,6 +69,7 @@ select {
     background-color: #19203f;
     position: relative;
     margin-top: 200px;
+    border-radius: 2px;
 }
 
 .shoes {
@@ -75,6 +77,7 @@ select {
     height: 50px;
     background-color: #ffffff;
     margin-top: 0px;
+    border-radius: 2px;
 }
 
 ul {
