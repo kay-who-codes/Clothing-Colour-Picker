@@ -1,4 +1,4 @@
-# Clothing Colour Picker
+# 👕 Clothing Colour Picker
 
 A simple web app that allows users to customise clothing colours for a jacket, top, bottoms, and shoes using a colour picker interface.
 
